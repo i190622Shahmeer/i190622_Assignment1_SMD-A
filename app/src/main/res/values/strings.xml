@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">i190622</string>
+    <string name="i_would_like_to_recieve_your_newsletter_and_other_promotional_information">I would like to recieve your newsletter and other promotional information.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
 </resources>

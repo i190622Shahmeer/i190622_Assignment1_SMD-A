@@ -24,77 +24,63 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="40dp"
+            android:layout_marginVertical="45dp"
             android:layout_marginStart="80dp"
-            android:text="Song Title"
+            android:text="Profile"
             android:textColor="@color/white"
-            android:textSize="35sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="100dp"
-            android:layout_marginStart="30dp"
-            android:text="By Artist"
-            android:textColor="#CAA919"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginVertical="220dp"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/ic_baseline_account_circle_24"
-            app:tint="#CAA919" />
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:layout_marginVertical="215dp"
-            android:layout_marginStart="80dp"
-            android:src="@drawable/commentbox" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="120dp"
-            android:layout_marginVertical="230dp"
-            android:text="What an amazing song"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:layout_marginVertical="550dp"
-            android:layout_marginStart="15dp"
-            android:src="@drawable/commentbox" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginVertical="565dp"
-            android:text="Post a comment"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginVertical="550dp"
-            android:layout_marginStart="330dp"
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="120dp"
             android:src="@drawable/circle"
-            android:tint="#44390E" />
+            app:tint="#44390E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="130dp"
+            android:layout_marginTop="350dp"
+            android:text="Username"
+            android:textColor="#CAA919"
+            android:textSize="30sp" />
 
         <ImageView
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:layout_marginVertical="555dp"
-            android:layout_marginStart="335dp"
-            android:src="@drawable/ic_baseline_play_arrow_24"
-            app:tint="#CAA919" />
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="50dp"
+            android:layout_marginStart="340dp"
+            android:src="@drawable/ic_baseline_edit_24"
+            app:tint="@color/white" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="420dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/email"
+            android:textColor="#D0C235"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="480dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/playlists_4"
+            android:textColor="#D0C235"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="540dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/songs_4"
+            android:textColor="#D0C235"
+            android:textSize="30sp" />
 
         <ImageView
             android:src="@drawable/bottombar"
@@ -104,19 +90,19 @@
             android:layout_height="100dp"/>
 
         <ImageView
-            android:src="@drawable/ic_baseline_thumb_up_24"
-            android:layout_marginVertical="675dp"
-            android:layout_marginStart="30dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginVertical="675dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/ic_baseline_thumb_up_24"
             app:tint="#CAA919" />
 
         <ImageView
-            android:src="@drawable/ic_baseline_add_24"
-            android:layout_marginVertical="670dp"
-            android:layout_marginStart="130dp"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            android:layout_marginVertical="670dp"
+            android:layout_marginStart="130dp"
+            android:src="@drawable/ic_baseline_add_24"
             app:tint="#CAA919" />
 
         <ImageView

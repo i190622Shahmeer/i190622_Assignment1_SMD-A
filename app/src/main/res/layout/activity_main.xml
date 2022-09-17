@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,82 +12,252 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <ImageView
-            android:layout_width="170dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="75dp"
-            android:layout_marginHorizontal="20dp"
-            android:src="@drawable/logoicon"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
-            android:layout_marginHorizontal="35dp"
-            android:text="Mustify"
-            android:textColor="@color/white"
-            android:textSize="45sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="300dp"
-            android:layout_marginVertical="50dp"
-            android:text="Sign Up"
-            android:textSize="25dp"
-            android:textColor="@color/white"
-            />
-
-
-        <EditText
-            android:id="@+id/editTextTextEmailAddress"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginVertical="330dp"
-            android:textColor="#D0C235"
-            android:background="@color/white"
-            android:backgroundTint="@color/white"
-            android:layout_width="350dp"
+            android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text="   Email"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:layout_marginStart="330dp"
+            android:layout_marginVertical="40dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:tint="#CAA919" />
 
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="350dp"
-            android:textColor="#D0C235"
-            android:background="@color/white"
-            android:backgroundTint="@color/white"
+        <ImageView
+            android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginVertical="415dp"
-            android:text="@string/password"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-
-
-        <Button
-            android:id="@+id/button"
-            android:layout_marginVertical="520dp"
-            android:layout_marginStart="35dp"
-            android:layout_width="350dp"
-            android:layout_height="55dp"
-            android:backgroundTint="#D7C50E"
-            android:text="@string/sign_in" />
+            android:layout_marginStart="20dp"
+            android:layout_marginVertical="40dp"
+            android:src="@drawable/ic_baseline_format_list_bulleted_24"
+            app:tint="@color/white" />
 
         <TextView
-            android:textColor="#D0C235"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="585dp"
-            android:layout_marginStart="100dp"
-            android:text="@string/forgot_your_password"
+            android:layout_marginStart="20dp"
+            android:layout_marginVertical="130dp"
+            android:text="Playlists"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:layout_marginVertical="190dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/cd"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:layout_marginVertical="190dp"
+            android:layout_marginStart="150dp"
+            android:src="@drawable/cd"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+        <ImageView
+            android:layout_marginVertical="190dp"
+            android:layout_marginStart="280dp"
+            android:src="@drawable/cd"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginVertical="310dp"
+            android:text="Playlist 1"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginVertical="310dp"
+            android:text="Playlist 2"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginVertical="310dp"
+            android:text="Playlist 3"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginVertical="370dp"
+            android:text="Artists"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <ImageView
+            android:layout_marginVertical="430dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/asl"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <ImageView
+            android:layout_marginVertical="430dp"
+            android:layout_marginStart="150dp"
+            android:src="@drawable/asl"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+        <ImageView
+            android:layout_marginVertical="430dp"
+            android:layout_marginStart="280dp"
+            android:src="@drawable/asl"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginVertical="545dp"
+            android:text="Artist 1"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginVertical="545dp"
+            android:text="Artist 2"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+            android:layout_marginVertical="545dp"
+            android:text="Artist 3"
+            android:textColor="#CAA919"
             android:textSize="20sp" />
 
 
-    </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginVertical="610dp"
+            android:text="Song Name"
+            android:textColor="#CAA919"
+            android:textSize="24sp" />
 
+
+        <ImageView
+            android:layout_marginStart="230dp"
+            android:layout_marginVertical="605dp"
+            android:src="@drawable/ic_baseline_fast_rewind_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:layout_marginStart="290dp"
+            android:layout_marginVertical="605dp"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:tint="#CAA919" />
+
+
+        <ImageView
+            android:layout_marginStart="350dp"
+            android:layout_marginVertical="605dp"
+            android:src="@drawable/ic_baseline_fast_forward_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:src="@drawable/bottombar"
+            android:layout_marginVertical="660dp"
+            android:paddingBottom="10dp"
+            android:layout_width="5000dp"
+            android:layout_height="100dp"/>
+
+        <ImageView
+            android:src="@drawable/ic_baseline_thumb_up_24"
+            android:layout_marginVertical="675dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:src="@drawable/ic_baseline_add_24"
+            android:layout_marginVertical="670dp"
+            android:layout_marginStart="130dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_marginVertical="670dp"
+            android:layout_marginStart="245dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:src="@drawable/ic_baseline_access_time_24"
+            android:layout_marginVertical="670dp"
+            android:layout_marginStart="342dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:tint="#CAA919" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="700dp"
+            android:layout_marginStart="27dp"
+            android:text="Liked"
+            android:textColor="#CAA919"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="700dp"
+            android:layout_marginStart="137dp"
+            android:text="Add"
+            android:textColor="#CAA919"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="700dp"
+            android:layout_marginStart="245dp"
+            android:text="Search"
+            android:textColor="#CAA919"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="700dp"
+            android:layout_marginStart="320dp"
+            android:text="ListenLater"
+            android:textColor="#CAA919"
+            android:textSize="15sp" />
+
+
+
+
+
+    </RelativeLayout>
 </LinearLayout>
 
 

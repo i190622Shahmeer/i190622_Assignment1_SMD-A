@@ -59,7 +59,7 @@
             android:layout_height="55dp"
             android:layout_marginVertical="500dp"
             android:layout_marginStart="180dp"
-            android:src="@drawable/ic_baseline_pause_24"
+            android:src="@drawable/ic_baseline_play_arrow_24"
             app:tint="#CAA919" />
 
         <ImageView
@@ -89,7 +89,46 @@
             android:textColor="#CAA919"
             android:textSize="20sp" />
 
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginVertical="615dp"
+            android:layout_marginStart="55dp"
+            android:src="@drawable/ic_baseline_thumb_up_24"
+            app:tint="@color/white" />
 
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginVertical="615dp"
+            android:layout_marginStart="125dp"
+            android:src="@drawable/ic_baseline_download_24"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginVertical="615dp"
+            android:layout_marginStart="195dp"
+            android:src="@drawable/ic_baseline_audiotrack_24"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginVertical="615dp"
+            android:layout_marginStart="265dp"
+            android:src="@drawable/ic_baseline_insert_comment_24"
+            app:tint="#CAA919" />
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginVertical="615dp"
+            android:layout_marginStart="335dp"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:tint="@color/white" />
 
 
 

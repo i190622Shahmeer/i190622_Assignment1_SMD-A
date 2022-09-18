@@ -12,60 +12,86 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="325dp"
+            android:src="@drawable/ic_baseline_arrow_drop_down_24"
+            app:tint="#D7C50E" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="42dp"
-            android:layout_marginStart="15dp"
-            android:text="Skip"
-            android:textColor="#D7C50E"
-            android:textSize="25sp" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="37dp"
-            android:layout_marginStart="90dp"
-            android:text="Select Playlist"
+            android:layout_marginStart="30dp"
+            android:text="Song Title"
             android:textColor="@color/white"
             android:textSize="35sp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="100dp"
+            android:layout_marginStart="30dp"
+            android:text="By Artist"
+            android:textColor="#D7C50E"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginVertical="140dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/des" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="500dp"
+            android:layout_marginStart="110dp"
+            android:src="@drawable/ic_baseline_fast_rewind_24"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="500dp"
+            android:layout_marginStart="180dp"
+            android:src="@drawable/ic_baseline_pause_24"
+            app:tint="#CAA919" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginVertical="500dp"
+            android:layout_marginStart="250dp"
+            android:src="@drawable/ic_baseline_fast_forward_24"
+            app:tint="#CAA919" />
+
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="563dp"
+            android:layout_marginStart="70dp"
+            android:progressBackgroundTint="#CAA919"
+            android:thumbTint="#CAA919" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="42dp"
-            android:layout_marginStart="325dp"
-            android:text="Next"
-            android:textColor="#D7C50E"
-            android:textSize="25sp" />
+            android:layout_marginVertical="580dp"
+            android:layout_marginStart="80dp"
+            android:text="0:00"
+            android:textColor="#CAA919"
+            android:textSize="20sp" />
 
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="190dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="300dp"
-            android:src="@drawable/selectplaylist"
-            app:tint="#CAA919" />
 
 
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginStart="310dp"
-            android:layout_marginTop="530dp"
-            android:src="@drawable/circle"
-            app:tint="#CAA919" />
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="325dp"
-            android:layout_marginTop="540dp"
-            android:src="@drawable/ic_baseline_add_24"
-            app:tint="@color/white" />
 
         <ImageView
             android:src="@drawable/bottombar"
@@ -142,7 +168,6 @@
             android:text="ListenLater"
             android:textColor="#CAA919"
             android:textSize="15sp" />
-
 
 
 

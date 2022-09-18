@@ -24,20 +24,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="42dp"
+            android:layout_marginVertical="40dp"
             android:layout_marginStart="80dp"
-            android:text="Upload Music"
+            android:text="Add Playlist"
             android:textColor="@color/white"
-            android:textSize="30sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginVertical="42dp"
-            android:layout_marginStart="325dp"
-            android:text="Next"
-            android:textColor="#D7C50E"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
 
         <ImageView
@@ -51,47 +42,32 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginVertical="180dp"
             android:layout_marginStart="175dp"
+            android:layout_marginVertical="180dp"
             android:src="@drawable/ic_baseline_cloud_upload_24"
             app:tint="#D7C50E" />
 
 
         <EditText
-            android:id="@+id/editTextTextTitle"
+            android:id="@+id/editTextTextPersonNam"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginHorizontal="30dp"
-            android:layout_marginVertical="340dp"
+            android:layout_marginVertical="380dp"
             android:background="@color/white"
             android:backgroundTint="@color/white"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="  Title"
+            android:text="  Playlist Name"
             android:textColor="#D0C235"
             tools:ignore="DuplicateIds" />
 
         <EditText
-            android:id="@+id/editTextTextGenre"
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="350dp"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:layout_marginHorizontal="30dp"
-            android:layout_marginVertical="410dp"
-            android:background="@color/white"
-            android:backgroundTint="@color/white"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="  Genre"
-            android:textColor="#D0C235"
-            tools:ignore="DuplicateIds" />
-
-
-        <EditText
-            android:id="@+id/editTextTextDes"
-            android:layout_width="350dp"
-            android:layout_height="80dp"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginVertical="485dp"
+            android:layout_marginVertical="460dp"
             android:background="@color/white"
             android:backgroundTint="@color/white"
             android:ems="10"
@@ -99,32 +75,15 @@
             android:text="  Description"
             android:textColor="#D0C235" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="130dp"
-            android:layout_height="55dp"
-            android:layout_marginVertical="590dp"
-            android:layout_marginStart="50dp"
-            android:backgroundTint="#D7C50E"
-            android:text="Upload" />
-
 
         <Button
             android:id="@+id/button"
             android:layout_width="130dp"
             android:layout_height="55dp"
-            android:layout_marginVertical="590dp"
+            android:layout_marginVertical="580dp"
             android:layout_marginStart="250dp"
-            android:backgroundTint="@color/black"
-            android:text="Record" />
-
-
-
-
-
-
-
-
+            android:backgroundTint="#D7C50E"
+            android:text="Add Playlist" />
 
 
         <ImageView
@@ -202,6 +161,8 @@
             android:text="ListenLater"
             android:textColor="#CAA919"
             android:textSize="15sp" />
+
+
 
 
     </RelativeLayout>

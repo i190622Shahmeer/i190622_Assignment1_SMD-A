@@ -38,6 +38,15 @@
             android:layout_marginTop="100dp"
             android:src="@drawable/des" />
 
+        <TextView
+            android:layout_marginStart="175dp"
+            android:layout_marginVertical="340dp"
+            android:text="2:45"
+            android:textColor="#CAA919"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -121,6 +130,9 @@
             android:text="ListenLater"
             android:textColor="#CAA919"
             android:textSize="15sp" />
+
+
+
 
 
     </RelativeLayout>
